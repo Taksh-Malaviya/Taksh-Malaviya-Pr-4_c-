@@ -3,11 +3,9 @@ using namespace std;
 
 
 class Distance {
-private:
+public:
     int feet;
     int inches;
-
-public:
     Distance() {
         feet = 0;
         inches = 0;
