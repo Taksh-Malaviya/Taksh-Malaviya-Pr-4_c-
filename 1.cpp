@@ -3,7 +3,7 @@ using namespace std;
 
 class Message {
 private:
-    string inte_Message;
+    char inte_Message[100];
 
 public:
     Message() {
@@ -24,7 +24,7 @@ int main() {
     Message msg;
 
     msg.print();
-    msg.print("Default lol ");
+    msg.print(" Default ");
 
     return 0;
 }
